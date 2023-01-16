@@ -9,8 +9,12 @@
 
 
     <bean id="myPet"
-          class="Dog">
+          class="Cat">
     </bean>
 
+    <bean id="myPerson"
+          class="Person">
+        <constructor-arg ref="myPet"/>
+    </bean>
 
 </beans>
