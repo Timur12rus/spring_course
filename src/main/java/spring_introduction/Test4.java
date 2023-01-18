@@ -1,3 +1,5 @@
+package spring_introduction;
+
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Test4 {
@@ -7,12 +9,12 @@ public class Test4 {
 
         Dog myDog = context.getBean("myPet", Dog.class);
         Dog yourDog = context.getBean("myPet", Dog.class);
-
-        myDog.setName("Belka");
-        yourDog.setName("Strelka");
-
-        System.out.println(myDog.getName());
-        System.out.println(yourDog.getName());
+//
+//        myDog.setName("Belka");
+//        yourDog.setName("Strelka");
+//
+//        System.out.println(myDog.getName());
+//        System.out.println(yourDog.getName());
 
         System.out.println("Переменные ссылаются на один и тот же объект?" +
                 (myDog == yourDog));

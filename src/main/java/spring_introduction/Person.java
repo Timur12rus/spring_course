@@ -1,3 +1,5 @@
+package spring_introduction;
+
 public class Person {
     private Pet pet;
 
