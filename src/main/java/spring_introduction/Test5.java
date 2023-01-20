@@ -14,7 +14,5 @@ public class Test5 {
         yourDog.say();
 
         context.close();
-        myDog.destroy();
-        yourDog.destroy();
     }
 }
